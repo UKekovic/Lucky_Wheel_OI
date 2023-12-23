@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="YourTestSuiteName">
+    <test name="IncorrectPibTest">
+        <classes>
+            <!-- Specify your test classes here -->
+            <class name="luckywheel_oi.my_tests.IncorrectPibTest" />
+            <!-- Add more classes as needed -->
+        </classes>
+    </test>
+
+    <test name="NonSubscriberGameTest">
+        <classes>
+            <!-- Specify your test classes here -->
+            <class name="luckywheel_oi.my_tests.NonSubscriberGameTest" />
+            <!-- Add more classes as needed -->
+        </classes>
+    </test>
+
+    <test name="SubscriberGameTest">
+        <classes>
+            <!-- Specify your test classes here -->
+            <class name="luckywheel_oi.my_tests.SubscriberGameTest" />
+            <!-- Add more classes as needed -->
+        </classes>
+    </test>
+
+    <test name="GameWasAlreadyPlayTest">
+        <classes>
+            <!-- Specify your test classes here -->
+            <class name="luckywheel_oi.my_tests.GameWasAlreadyPlayTest" />
+            <!-- Add more classes as needed -->
+        </classes>
+    </test>
+
+    </suite>
